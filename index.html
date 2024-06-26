@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./day1.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Simple Selectors</h1>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse:  collapse;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;     
+        }
+        .brown{
+            background-color: brown;
+        }
+        .blue{
+            background-color: rgb(64, 64, 225);
+        }
+        .light {
+            background-color: rgb(129, 235, 235);
+        }
+        .purple{
+            background-color: rgb(210, 81, 210);
+        }
+        .black{
+            background-color: rgb(51, 48, 48);
+        }
+        #white {
+            background-color: white;
+        }
+        #grey{
+            background-color: grey;
+        }
+        #magneta{
+            background-color: rgb(234, 26, 61);
+        }
+        #rhodamine{
+            background-color: rgb(215, 75, 98);
+        }
+        #mulberry{
+            background-color: rgb(211, 115, 131);
+        }
+
+    </style>
+    <h4 style="text-align: center;">Tag name (tag)</h4>
+    <table height="50" width="600">
+        <tr>
+            <td style="background-color: rgb(66, 230, 66);">green</td>
+            <td style="background-color: greenyellow;">light green</td>
+            <td style="background-color: yellow;">yellow</td>
+            <td style="background-color: orange;">orange</td>
+            <td style="background-color: red">red</td>
+        </tr>
+        </table>
+    </br>
+    <h4 style="text-align: center;">Class name (.classname)</h4>
+        <table  height="50" width="600">
+        <tr>
+           <td class="brown">brown</td>
+           <td class="blue">blue</td>
+           <td class="light">light blue</td>
+           <td class="purple">purple</td>
+           <td class="black">black</td>
+        </tr>
+       
+        </table>
+    </br>
+    <h4 style="text-align: center;">Id (#id name)</h4>
+        <table  height="50" width="600">
+           
+        <tr>
+            <td id="white">white</td>
+            <td id="grey">grey</td>
+            <td id="magneta">magneta</td>
+            <td id="rhodamine">rhodamine</td>
+            <td id="mulberry">mulberry</td>
+        </tr>
+        </table><br/>
+
+        <h4 style="text-align: center">Grouping (,)</h4>
+        <table width="600" height="50" >
+            <style>
+                table, td{
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    text-align: center;
+                    margin-left:auto;
+                    margin-right:auto;
+                }
+                td{
+                    background-color: lightgreen;
+                }
+            </style>
+        <tr>
+            <td>lavender</td>
+            <td>navy blue</td>
+            <td>spring green</td>
+            <td>peach</td>
+            <td>emerland</td>
+        </tr>
+    </table><br/>
+
+    <h4 style="text-align: center">Universal (*)</h4>
+    <table width="600" height="50">
+        <style>
+            table, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            *{
+               background-color: rgb(224, 164, 174);
+            }
+        </style>
+        <tr>
+            <th>melon</th>
+            <th>salmon</th>
+            <th>olive green</th>
+            <th>thistle</th>
+            <th>golden</th>
+        </tr>
+    </table>
+</body>
+</html>
